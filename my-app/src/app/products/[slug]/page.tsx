@@ -7,6 +7,8 @@ type Props = {
   }
 }
 
+export const revalidate = 3;
+
 export function generateMetadata({params:{slug}}:Props) {
   
   return {

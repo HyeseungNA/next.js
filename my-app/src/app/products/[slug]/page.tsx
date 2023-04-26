@@ -26,7 +26,7 @@ export default async function ProductPage({ params: { slug } }: Props) {
   <>
     <h1>{product.name} 제품 설명 페이지</h1>
     <Image 
-    src= {`/images/${product.image}`}
+    src= {`/Images/${product.image}`}
   alt={product.name}
   width='300'
   height='300'
